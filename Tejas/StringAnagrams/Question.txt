@@ -1,0 +1,7 @@
+Problem: Program to check if two strings are Anagram or not.
+
+Sample Input: abcd cdba
+Expected Ouput: The strings abcd and cdba are anagrmas of each other
+
+Sample Input: abcd lkjh
+Expected Output: The strings abcd and lkjh are not anagrmas of each other

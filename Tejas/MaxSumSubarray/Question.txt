@@ -1,0 +1,6 @@
+Problem: Maximum Sum Contiguous Subarray
+
+
+Sample Input: {-4, -2, 4, -1, 5, -2, 3, -9}
+
+Expected Ouput: 9
