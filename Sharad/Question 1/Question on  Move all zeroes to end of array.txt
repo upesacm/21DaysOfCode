@@ -1,0 +1,8 @@
+Move all zeroes to end of array
+
+Input :  
+arr[] = {1, 2, 0, 4, 3, 0, 5, 0};
+
+
+Output : 
+arr[] = {1, 2, 4, 3, 5, 0, 0};
