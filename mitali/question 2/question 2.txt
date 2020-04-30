@@ -1,0 +1,18 @@
+
+Input Format
+
+Input will contain two integers, a and b, separated by a newline.
+
+Output Format
+
+You have to print the updated value of a and b, on two different lines.
+
+a should be sum of two integers and b should be difference of two integers
+Sample Input
+
+4
+5
+Sample Output
+
+9
+1
