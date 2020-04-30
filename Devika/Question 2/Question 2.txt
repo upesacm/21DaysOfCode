@@ -1,3 +1,0 @@
-Sum of two array elements
-The program must accept two integr array of size N as the input. The program must print the sum of the first element in the first array and Nth element in the second array, then the program must print the sum of the second element in the first array and 
-(N-1)th element in the second array and so on.
