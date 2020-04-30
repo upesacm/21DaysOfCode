@@ -1,0 +1,12 @@
+
+Change(money,coins)
+
+MinNumCoins(0) ← 0
+for m from 1 to money:
+	MinNumCoins(m) ← ∞
+	for i from 1 to |coins|:
+	  if m ≥ coini:
+	     NumCoins ← MinNumCoins(m − coini ) + 1
+	     if NumCoins < MinNumCoins(m):
+	        MinNumCoins(m) ← NumCoins
+return MinNumCoins(money)
