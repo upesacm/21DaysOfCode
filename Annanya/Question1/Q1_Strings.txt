@@ -1,0 +1,3 @@
+Q1.
+Write a python program to removve the consecutive duplicate letters from a string
+
