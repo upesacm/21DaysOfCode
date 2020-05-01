@@ -1,0 +1,1 @@
+Q2. Write a program to to find the first word that matches with cake in a given string
