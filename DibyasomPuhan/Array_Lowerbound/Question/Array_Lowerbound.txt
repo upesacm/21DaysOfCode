@@ -1,0 +1,5 @@
+The lower bound of an array, is the second lasgest number after max(word);
+
+Constraints: 0 << len(lower_bound << endl;
+
+Therefore r=write  aprgram  ti fubthe wuu shoot

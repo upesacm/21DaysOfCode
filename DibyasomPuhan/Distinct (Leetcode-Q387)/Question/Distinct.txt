@@ -1,0 +1,16 @@
+*Distinct*
+
+Problem Statement -> Find the first non-repeating character in a string, and return it's index.
+
+(If there's no non-repeating character in the string, return -1)
+
+`````````````````````````````````````````````````````````
+for_instance#0
+Input:   string = "minions love banana"
+Output: 0
+Reason: 'm' is the first non-repeating character, and it's index is 0.
+
+for_instance#1
+Input:   string = "aaaabbbbcccddddd"
+Output: -1
+Reason: There's no non-repeating character.
