@@ -1,0 +1,8 @@
+Program to remove duplicate elements from array and print length of new array.
+
+For example:
+Input:
+  5 8 9 5 12 9
+Output:
+  5 8 9 12
+  4 
