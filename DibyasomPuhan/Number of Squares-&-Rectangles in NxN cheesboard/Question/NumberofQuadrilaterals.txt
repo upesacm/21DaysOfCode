@@ -1,0 +1,15 @@
+Given a chessboard, of size NxN .
+(Where N is number >0, denoting number of small squares of side-1unit that can fit along one side of the chessboard)
+
+Problem Statement: Compute the total number of squares and rectangles in the chessboard.
+
+Constraints: 2 <= N <= 50
+
+Input Format:   Single line input, denoting N.
+Output Format: <number of rectangles> <number of squares>
+
+``````````````````````````````````````````````
+for_instance#0
+
+Input  : 8
+Output: 1296 204
