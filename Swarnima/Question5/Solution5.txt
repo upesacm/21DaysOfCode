@@ -1,20 +1,17 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 #include<algorithm>
 using namespace std;
-int merge_arrays(int arr1[], int arr2[], int arr3[], int m, int n)
-{
-    int i,j;
-    for(i = 0; i < m; i++)
-    {
-        arr3[i] = arr1[i];
+int merge_arrays(int a1[], int a2[], int a3[], int m, int n){
+    int i, j;
+    for(i=0; i<m; i++){
+        a3[i] = a1[i];
     }
-    for(i = m, j = 0 ; i < m + n; i++, j++)
-    {
-        arr3[i] = arr2[j];
+    for(i=m, j=0; i<m+n; i++, j++){
+        a3[i]=a2[j];
     }
 }
 int main(){
-    int n,m;
+    int n, m;
     cout<<"\nEnter the size of the first array: ";
     cin>>m;
     cout<<"\nEnter the size of the second array: ";
