@@ -1,0 +1,45 @@
+Chef and Text 
+
+Chef became fascinated by the group of Anonymous Hackers and want to become a hacker so he asked his friend Alex to teach him hacking. Alex agreed on a condition that she will give him a text that he has to decrypt , if he can do it then only she'll teach him hacking and if he couldn't solve it then he will have to give her his favorite toy. Chef agreed but as he asked Alex to give him an example so that he can understand how to decrypt it. Alex gave him an example which chef analyzed and found that the encryption of the text was done by an algorithm according to which -
+
+Replacing letters 'a'-'m' with 'n'-'z'
+
+Replacing letters 'n'-'z' with 'a'-'m'
+
+Replacing letters 'A'-'M' with 'N'-'Z'
+
+Replacing letters 'N'-'Z' with 'A'-'M'
+
+Also, replacing digits '0'-'4' with '5'-'9'
+
+and replacing digits '5'-'9' with '0'-'4'
+
+will give him the desired output. But as the text is too long to decode by him he asked you his friend to help him write a program to decrypt the text.
+Note : that spaces are left unchanged and the case of the letter is taken in consideration.
+
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows."
+The first line of each test case contains a single integer N denoting the length of the Text.
+The second line of each test case contains a string S denoting the Encrypted Text.
+Output
+For each test case, output a single line containing the Decrypted Text
+Constraints
+1 = T = 100
+1 = N = 103
+S will contains [ 'A'-'Z', 'a'-'z', '0'-'9' ]
+There will not be any consecutive spaces i.e. no consecutive two spaces.
+Example
+Input:
+
+2
+9
+UryYbPuRs
+22
+JrYpBzr gb UnPxvAt 552
+
+
+
+Output:
+
+HelLoChEf
+WeLcOme to HaCkiNg 007
