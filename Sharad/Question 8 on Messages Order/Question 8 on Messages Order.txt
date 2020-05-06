@@ -1,0 +1,27 @@
+Input Format
+
+The input is read by the provided locked code template. It contains several lines of text messages in the order that they will be sent over the network.
+
+Constraints
+
+There will be at most  lines in the input.
+Each line will contain at most  characters
+Output Format
+
+The output should be produced by the provided locked code template and it is produced as described in details in the statement. The expected order of printed messages is the same as the one in the input.
+
+Sample Input 0
+
+Alex
+Hello Monique!
+What'up?
+Not much :(
+Sample Output 0
+
+Alex
+Hello Monique!
+What'up?
+Not much :(
+
+link:
+https://www.hackerrank.com/challenges/messages-order/problem
