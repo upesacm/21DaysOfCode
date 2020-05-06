@@ -1,0 +1,15 @@
+**Maximum Intersection Points**
+
+Problem Statement : Given 'x' number of Circles, and 'y' number of straight lines, compute the maximum number of intersection points that can be generated.
+
+Input Format: two space separated integers, denoting 'x' and 'y'.
+Output Format: <maximum intersection points>
+
+Input Constraints: 1 <= x,y <= 60
+
+```````````````````````````````````````````````
+#For_instance0
+
+Input  : 3 4
+Output: 36
+``````````````````````````````````````````````
