@@ -1,0 +1,27 @@
+The chef has prepared huge amounts of cake for Gavneesh's birthday! As everyone knows, he just loves the icing on the cakes. Also everyone knows that frosting can be on top of the cake and on the boundaries. So, chef decides to make Gavneesh happy and maximise the amount of icing!
+For this problem, we will consider cakes as 2D rectangles.
+To increase the amount of icing the cakes can have, the chef decided to cut some cakes. Each cake can be cut only once and the resulting pieces must also be rectangular.
+Also, chef decides to cut at most K cakes so that no one gets suspicious.
+Help the chef in figuring out the amount of extra icing needed to ice the newly formed boundaries.
+
+Input:
+First line contains the number of cakes, N and the max cuts chef can do, K.
+Each of the following N lines gives the length l and breadth b for each cake.
+
+Output:
+Output the amount of extra icing needed.
+
+Constraints
+1<=N<=100000
+0<=K<=N
+1<=l,b<=10000
+
+Sample Input:
+2 1
+4 6   
+2 8
+
+Sample Output:
+16
+Explanation:
+To maximise the icing the chef will cut second cake parallel to side of length 8. So extra icing needed is 16.
