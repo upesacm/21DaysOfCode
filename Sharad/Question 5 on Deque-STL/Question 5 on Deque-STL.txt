@@ -1,0 +1,20 @@
+Sample Input
+
+2
+5 2
+3 4 6 3 4
+7 4
+3 4 5 8 1 4 10
+Sample Output
+
+4 6 6 4
+8 8 8 10
+Explanation
+
+For the first case, the contiguous subarrays of size 2 are {3,4},{4,6},{6,3} and {3,4}. The 4 maximum elements of subarray of size 2 are: 4 6 6 4.
+
+For the second case,the contiguous subarrays of size 4 are {3,4,5,8},{4,5,8,1},{5,8,1,4} and {8,1,4,10}. The 4 maximum element of subarray of size 4 are: 8 8 8 10.
+
+
+link:
+https://www.hackerrank.com/challenges/deque-stl/problem
