@@ -1,7 +1,7 @@
 int FindUnique(int * arr, int size)
 {
   
- // make a variable jisme we have to save our unique element
+ 
    
  int i,j;
 
@@ -9,7 +9,7 @@ for(i=0;i<size;i++)
 
 {
  
- // ek aur for loop bano jo compare karega every element
+ 
    
  for(j=0; j<size; j++)
 
@@ -34,4 +34,5 @@ for(i=0;i<size;i++)
     
     
 }
+
 
