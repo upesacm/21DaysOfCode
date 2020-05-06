@@ -1,3 +1,4 @@
+CHEF AND STRING
 Chef has a string S consisting of lowercase English characters. Chef defined functions left shift L(X) and right shift R(X) as follows.
 
   L(X) is defined as shifting all characters of string X one step towards left and moving the first character to the end.
