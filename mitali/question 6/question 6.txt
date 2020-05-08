@@ -1,0 +1,8 @@
+Input Format
+
+The first line of the input contains N where N is the number of integers. The next line contains N integers.
+Output Format
+
+Print the integers in the sorted order one by one in a single line followed by a space.
+
+https://www.hackerrank.com/challenges/vector-sort/problem
