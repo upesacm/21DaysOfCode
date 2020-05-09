@@ -1,0 +1,21 @@
+Divij started with competitive programming recently but he got stuck on a question. The problem statement of the question is as follows, in the given string, consisting if uppercase and lowercase Latin letters, it: deletes all the vowels, inserts a character "." before each consonant, replaces all uppercase consonants with corresponding lowercase ones. Vowels are letters "A", "O", "Y", "E", "U", "I", and the rest are consonants. The program's input is exactly one string, it should return the output as a single string, resulting after the program's processing the initial string. Help Divij Cope with this easy task.
+
+Input Format
+
+First line of input contains an integer T number of test cases. The next T line represents the input string of Prashant's program.
+
+Constraints
+
+This string only consists of uppercase and lowercase Latin letters and its length is from 1 to 100, inclusive. 0
+
+Output Format
+
+Print the resulting string. It is guaranteed that this string is not empty.
+
+Sample Input 0
+
+1
+odn
+Sample Output 0
+
+.d.n
