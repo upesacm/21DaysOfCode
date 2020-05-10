@@ -1,0 +1,30 @@
+Input Format
+
+The first line contains , the number of test cases.
+Each of the  subsequent lines contains two space-separated integers. The first integer is a color value, , and the second integer is a fruit value, .
+
+Constraints
+
+Output Format
+
+The locked stub code in your editor prints  lines containing the color name and the fruit name corresponding to the input enumeration index.
+
+Sample Input
+
+2
+1 0
+3 3
+Sample Output
+
+green apple
+unknown unknown
+Explanation
+
+Since , there are two lines of output.
+
+The two input index values,  and , correspond to green in the color enumeration and apple in the fruit enumeration. Thus, we print green apple.
+The two input values,  and , are outside of the range of our enums. Thus, we print unknown unknown.
+
+
+link:
+https://www.hackerrank.com/challenges/cpp-class-template-specialization/problem
