@@ -1,0 +1,3 @@
+Program to find second most frequent character
+Given a string, find the second moInput: str = "aabababa";
+Output: Second most frequent character is 'b'st frequent character in it
