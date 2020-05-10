@@ -1,0 +1,26 @@
+In a parallel universe, there are not just two charges like positive and negative, but there are 26 charges represented by lower english alphabets. Charges have a property of killing each other or in other words neutralizing each other if they are of same charge and next to each other.
+
+You are given a string S where each S[i] represents a charge, where 0 <= i <= |s| - 1.
+
+You need to output size of final string followed by string after which no neutralizing is possible.
+
+Input Format
+
+Size of the string a string S where each S[i] represents a charge
+
+Constraints
+
+0 <= i <= |s| - 1
+
+Output Format
+
+You need to output size of final string followed by string after which no neutralizing is possible
+
+Sample Input 0
+
+12
+aaacccbbcccd
+Sample Output 0
+
+2
+ad
