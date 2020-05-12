@@ -4,23 +4,8 @@
 
 using namespace std;
 
-int binary_search(vector<int> &a, int x)
-{
-  int left = 0;
-  int right = (int)a.size() - 1;
-  while (left <= right)
-  {
-    int mid = left + (right - left) / 2;
-    if (x == a[mid])
-      return mid;
-    if (a[mid] > x)
-      right = mid - 1;
-    else
-      left = mid + 1;
-  }
-  //write your code here
-  return -1;
-}
+int binary_search();
+
 
 int linear_search(const vector<int> &a, int x)
 {
@@ -49,6 +34,24 @@ int main()
     //cout<<linear_search(a,b[i]) <<' ';
     cout << binary_search(a, b[i]) << ' ';
   }
+}
+
+int binary_search(vector<int> &a, int x)
+{
+  int left = 0;
+  int right = (int)a.size() - 1;
+  while (left <= right)
+  {
+    int mid = left + (right - left) / 2;
+    if (x == a[mid])
+      return mid;
+    if (a[mid] > x)
+      right = mid - 1;
+    else
+      left = mid + 1;
+  }
+  //write your code here
+  return -1;
 }
 
 
