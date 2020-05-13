@@ -1,0 +1,1 @@
+Q. Using arrays , write down the stack implementation 
