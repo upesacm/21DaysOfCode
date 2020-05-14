@@ -1,0 +1,33 @@
+Input Format
+
+The first line contains an integer, , the number of test cases. Each of the  subsequent lines contains a test case. A test case is described as  space-separated integers,  and , respectively.
+
+ is the value to compare against.
+ represents the range to compare:  to .
+Constraints
+
+The number of template parameters passed to reversed_binary_value will be .
+Output Format
+
+Each line of output contains  binary characters (i.e., 's and 's). Each character represents one value in the range. The first character corresponds to the first value in the range. The last character corresponds to the last value in the range. The character is  if the value in the range matches ; otherwise, the character is .
+
+Sample Input
+
+2
+65 1
+10 0
+Sample Output
+
+0100000000000000000000000000000000000000000000000000000000000000
+0000000000100000000000000000000000000000000000000000000000000000
+Explanation
+
+The second character on the first line is a , because the second value in the range  is  and  is .
+
+The eleventh character on the second line is a , because the eleventh value in the range  is  and  is .
+
+All other characters are zero, because the corresponding values in the range do not match .
+
+
+link:
+https://www.hackerrank.com/challenges/cpp-variadics/problem
