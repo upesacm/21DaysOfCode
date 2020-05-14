@@ -18,7 +18,6 @@ int binary_search(vector<int> &a, int x)
     else
       left = mid + 1;
   }
-  //write your code here
   return -1;
 }
 
@@ -50,5 +49,7 @@ int main()
     cout << binary_search(a, b[i]) << ' ';
   }
 }
+
+
 
 
