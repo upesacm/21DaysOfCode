@@ -1,0 +1,22 @@
+Input Format
+
+You do not need to read anything from stdin. The locked stub code in your editor reads a single line containing string . It then calls the methods specified above to pass each character to your instance variables.
+
+Constraints
+
+ is composed of lowercase English letters.
+Output Format
+
+You are not responsible for printing any output to stdout.
+If your code is correctly written and  is a palindrome, the locked stub code will print The word, racecar, is a palindrome; otherwise, it will printThe word, racecar, is not a palindrome.
+
+Sample Input
+
+racecar
+Sample Output
+
+The word, racecar, is a palindrome.
+
+
+
+https://www.hackerrank.com/challenges/30-queues-stacks/problem
