@@ -1,1 +1,0 @@
-Write a code to implement two stacks using arrays .
