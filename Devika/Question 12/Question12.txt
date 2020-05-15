@@ -1,0 +1,4 @@
+Sort the given stack
+Given a stack from the user. Sort the stack using recursion.
+Input: 9 4 7 8 2
+Output:9 8 7 4 2
