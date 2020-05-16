@@ -1,0 +1,2 @@
+strings
+show all the possible functions in the stl library of a string
