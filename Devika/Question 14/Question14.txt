@@ -1,0 +1,8 @@
+Linked list using stack
+Implement following functions:
+
+1)push() : Insert the element into linked list nothing but which is the top node of Stack.
+2)pop() : Return top element from the Stack and move the top pointer to the second node of linked list or Stack.
+3)display(): Print all element of Stack.
+Input:  2 5 9 8
+Output: 8 5 9 2
