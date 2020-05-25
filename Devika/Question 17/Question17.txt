@@ -1,0 +1,26 @@
+A Node insert function is also declared in your editor. It has two parameters: a pointer,head , pointing to the first node of a linked list, and an integer data value that must be added to the end of the list as a new Node object.
+
+Task
+Complete the insert function in your editor so that it creates a new Node (pass data as the Node constructor argument) and inserts it at the tail of the linked list referenced by the head parameter. Once the new node is added, return the reference to the head node.
+
+
+Input Format
+The insert function has 2 parameters: a pointer to a Node named head, and an integer value,data .
+The constructor for Node has 1 parameter: an integer value for the data field.
+
+Output Format
+Your insert function should return a reference to the head node of the linked list.
+
+Sample Input
+The following input is handled for you by the locked code in the editor:
+The first line contains T, the number of test cases.
+The T subsequent lines of test cases each contain an integer to be inserted at the list's tail.
+
+4
+2
+3
+4
+1
+
+Sample Output
+2 3 4 1
