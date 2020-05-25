@@ -1,0 +1,44 @@
+ChefX showed ChefY his new pizza slice design. The design is a planar figure that can be drawn in the following way:
+
+Draw a point A0 and two rays from this point such that the angle between them is α<π/2.
+Mark N points A1,A2,A3,…,AN on one ray in this order (A1 is closest to A0).
+Mark N points B1,B2,B3,…,BN on the other ray in this order (B1 is closest to A0).
+For each valid i, draw a line segment between points Ai and Bi+1.
+For each valid i, draw a line segment between points Bi and Ai+1.
+Finally, draw a line segment between points AN and BN.
+All these 2N−1 line segments must have equal lengths, which must also be equal to |A0A1|=|A0B1|.
+The result should look roughly like this: 
+
+ChefY wants to show ChefX that he does not know his own design very well. He asks ChefX to compute the angle between three of the marked points in this figure. It is clear that there are only four types of angles:
+
+∠AxAyBz
+∠AxByAz
+∠AxByBz
+∠BxAyBz
+Can you help ChefX find the angle ChefY asks for? It can be proved that under the given constraints, each angle can be written as π⋅m/n, where m and n are coprime integers; you should find m and n.
+
+Input
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains five space-separated integers N, t, x, y and z. Here, t denotes the type of the angle as listed above.
+Output
+For each query, print a single line containing two space-separated integers m and n.
+
+Constraints
+1≤T≤105
+2≤N≤109
+1≤t≤4
+each angle is between three of the points A0,A1,…,AN,B1,…,BN
+|x−y|=1
+|y−z|=1
+each angle is non-zero
+Subtasks
+Subtask #1 (10 points): 1≤T≤10
+Subtask #2 (90 points): original constraints
+
+Example Input
+1
+175456798 1 151163203 151163204 151163205
+Example Output
+66583464 116971199
+Explanation
+Example case 1: The type is 1, so the angle we want is A151163203A151163204B151163205. The angle is (66583464/116971199)π≐1.7883.
