@@ -1,0 +1,44 @@
+You are given an array A of N integers. Now, two functions  and  are defined:
+
+ : This is the smallest number Z such that  and 
+
+ : This is the smallest number Z such that  and 
+
+Now, you need to find for each index i of this array , where  . If such a number does not exist, for a particular index i, output 1 as its answer. If such a number does exist, output 
+
+Input :
+
+The first line contains a single integer N denoting the size of array A. Each of the next N lines contains a single integer, where the integer on the  line denotes .
+
+Output :
+
+Print N space separated integers on a single line, where the  integer denotes  or 1, if  does not exist.
+
+Constraints:
+
+
+
+SAMPLE INPUT 
+8
+3
+7
+1
+7
+8
+4
+5
+2
+SAMPLE OUTPUT 
+1 4 4 4 -1 2 -1 -1
+Explanation
+Next Greater     Next Smaller
+3 --> 7                 7 -->1
+7 --> 8                 8 -->4
+1 --> 7                 7 --> 4
+7 --> 8                 8 --> 4
+8 --> -1                -1 --> -1
+4 --> 5                 5 --> 2
+5 --> -1                -1 --> -1
+2 --> -1                -1 --> -1
+
+question link:https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/practice-problems/algorithm/a-game-of-numbers-1-5d3a8cb3/?layout=old
