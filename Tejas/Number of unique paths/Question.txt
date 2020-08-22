@@ -1,0 +1,31 @@
+Given a M X N matrix with your initial position at the top-left cell, find the number of possible unique paths to reach the bottom-right cell of the matrix from the initial position.
+
+Note: Possible moves can be either down or right at any point in time, i.e., we can move to matrix[i+1][j] or matrix[i][j+1] from matrix[i][j].
+
+Input:
+The first line contains an integer T, depicting the total number of test cases. Then following T lines contain two integers M and N depicting the size of the grid.
+
+Output:
+Print the number of unique paths to reach the bottom-right cell from the top-left cell.
+
+Expected Time Complexity: O(M*N).
+Expected Auxiliary Space: O(M*N).
+
+Constraints:
+1 ≤ T ≤ 30
+1 ≤ M ≤ 20
+1 ≤ N ≤ 20
+
+Example:
+Input:
+2
+2 2
+3 4
+
+Output:
+2
+10
+
+Example:
+Testcase 1:
+There are only two unique paths to reach the end of the matrix of size two from the starting cell of the matrix.
